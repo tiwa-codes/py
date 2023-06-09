@@ -4,12 +4,28 @@
 #     3. March - 2600
 #     4. April - 2130
 #     5. May - 2190
-#
+
 # Create a list to store these monthly expenses and using that find out,
-#
+January=2200
+February=2350
+March=2600
+April=2130
+May=2190
+
 # 1. In Feb, how many dollars you spent extra compare to January?
+print(February)
+
 # 2. Find out your total expense in first quarter (first three months) of the year.
+print(January, February, March)
 # 3. Find out if you spent exactly 2000 dollars in any month
+number = 2000
+months = 'January, February, March, April, May'
+
+if str(number) in months:
+    print(f"The number {number} exists in the string.")
+else:
+    print(f"The number {number} does not exist in the string.")
+
 # 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
 # 5. You returned an item that you bought in a month of April and
 # got a refund of 200$. Make a correction to your monthly expense list

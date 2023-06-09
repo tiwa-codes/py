@@ -4,10 +4,8 @@
 street = "13 patli gali"
 city = "New Delhi"
 country = "India"
-address = street + '\n' + city + '\n' + country
-print("Address using + operator:",address)
 address = f'{street}\n{city}\n{country}'
-print("Address using f-string:",address)
+print(address)
 
 # 2. Create a variable to store the string "Earth revolves around the sun"
 #     1. Print "revolves" using slice operator
@@ -30,8 +28,8 @@ print(f"I eat {num_veggies} veggies and {num_fruits} daily")
 s='maine 200 banana khaye'
 s=s.replace('banana','samosa')
 s=s.replace('200','10')
-print("Using two line replace:",s)
+print(s)
 
 s='maine 200 banana khaye'
 s=s.replace('banana','samosa').replace('200','10')
-print("Using single line:",s)
+print(s)
